@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    width: 100%;
+
+}
+a{text-decoration: none;}
+
+
+/*CABEÇALHO*/
+.menuprincipal{
+ background-color: rgb(37, 37, 37);
+  position: fixed;
+  width:100vw; height: 50px;
+  min-width: 700px;
+  z-index: 9;
+  display: flex;
+  
+}
+
+
+/*EFEITOS DO MEU NOME MENU*/
+.logo{ 
+    text-decoration: none;
+    font-size: 40px;   
+    text-align: center;
+    position: relative;
+    left: 10px;  
+    top: -25PX;
+}
+
+
+/*EFEITOS DO LINK DO MEU NOME*/
+a#titulo{
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat; 
+    
+
+}
+
+nav#menu ul{
+    list-style: none; /*TIRA AS BOLINHAS °*/
+    text-transform: uppercase; /*DEIXA TUDO MAIÚSCULA*/
+    position: absolute; /*MOVE A POSIÇÃO POR TODO O SITE*/
+    top: -15px; /*PARA CIMA OU PARA BAIXO*/
+    left: 1700px; /*ESQUERDA OU DIREITA*/
+    display: block;
+
+}
+
+nav#menu li{
+    display: inline-block; /*FEZ O MENU FICAR DEITADO*/
+    margin: auto; /*MARGEM ENTRE OS BLOCOS (NAVEGADORES)*/
+    padding: 10px; /*DISTANCIA ENTRE CONTEUDO E AS BORDAS*/
+    transition-duration: .6s; /*FAZ FICAR BRANCO OS BLOCOS*/
+    font-style: italic;    
+
+}
+
+
+nav#menu li:hover{-webkit-transform: scale(1.1); -ms-transform: scale(1.1);transform: scale(1.1);}
+nav#menu h1{display: none;} /*TIRA DA TELA O TITUTLO*/
+nav#menu a{text-decoration: none; color: black; } /*TIRA OS EFEITOS DO TEXTO*/
+

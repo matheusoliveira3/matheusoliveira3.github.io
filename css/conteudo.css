@@ -1,0 +1,67 @@
+/* COLUNA 1 */
+section.coluna1 div{
+    font-family: 'Poiret One';
+    font-size: 25px;
+    color: blanchedalmond;
+    position: absolute;
+    top: 20px;
+    left: 200px; 
+    padding: 30px;
+    margin: 30px;
+    text-align: justify;
+    word-wrap: break-word;
+    max-width: 30ch;
+    text-indent: 15px;
+    
+}       
+#graduacao{
+      position: absolute;
+    top: 600px;
+    left: 200px; 
+    padding: 30px;
+    margin: 30px;  
+}
+/*Imagem COLUNA 1*/
+section.coluna1 img{
+    position: absolute;
+    top: 50px;
+    left: -200px;
+    border-color: cornflowerblue;
+    border-style: solid;
+    box-shadow: 10px 8px 6px rgba(66, 36, 100, 0.77);
+}
+
+
+section.textos h1{font-size: 30px;}
+
+/* COLUNA 2 */
+section.coluna2 div{
+    font-family: 'Poiret One';
+    font-size: 25px;
+    color: blanchedalmond;
+    position: absolute;
+    top: 20px;
+    left: 1200px; 
+    padding: 30px;
+    margin: 30px;
+    text-align: justify;
+    word-wrap: break-word;
+    max-width: 30ch;
+    text-indent: 15px;
+    
+}
+
+
+/*BACKGROUND DO SITE*/
+div#back{
+    background-image: url(/imgs/028\ Plum\ Plate.png);
+    background-attachment: fixed;
+    position: fixed;
+    top: 50px;  
+    height: 100%;
+    width: 100%;
+    opacity: 100%;
+}
+
+
+
